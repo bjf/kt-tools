@@ -1,3 +1,4 @@
 #!/bin/sh
 
 go get github.com/bjf/ktCore
+go get github.com/bjf/lpad
