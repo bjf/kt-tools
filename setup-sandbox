@@ -1,4 +1,7 @@
 #!/bin/sh
 
+: ${GOPATH:?"You need to set GOPATH in your environemnt. ~/.go is a good value to use."}
+mkdir -p $GOPATH
+
 go get github.com/bjf/ktCore
 go get github.com/bjf/lpad
