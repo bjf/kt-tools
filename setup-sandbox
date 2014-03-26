@@ -5,3 +5,4 @@ mkdir -p $GOPATH
 
 go get github.com/bjf/ktCore
 go get github.com/bjf/lpad
+go get github.com/jessevdk/go-flags
